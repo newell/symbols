@@ -1,0 +1,2 @@
+# symbols
+gEDA symbols
