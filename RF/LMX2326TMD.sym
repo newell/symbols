@@ -1,0 +1,196 @@
+v 20150930 2
+B 300 0 2300 3200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 300 3450 5 10 0 0 0 0 1
+device=FREQUENCY_SYNTHESIZER
+P 300 3000 0 3000 1 0 1
+{
+T 200 3050 5 8 1 1 0 6 1
+pinnumber=1
+T 200 2950 5 8 0 1 0 8 1
+pinseq=1
+T 350 3000 5 8 0 1 0 2 1
+pintype=out
+T 350 3000 9 8 1 1 0 0 1
+pinlabel=FLo
+}
+P 300 2600 0 2600 1 0 1
+{
+T 200 2650 5 8 1 1 0 6 1
+pinnumber=2
+T 200 2550 5 8 0 1 0 8 1
+pinseq=2
+T 350 2600 5 8 0 1 0 2 1
+pintype=out
+T 350 2600 9 8 1 1 0 0 1
+pinlabel=CPo
+}
+P 300 2200 0 2200 1 0 1
+{
+T 200 2250 5 8 1 1 0 6 1
+pinnumber=3
+T 200 2150 5 8 0 1 0 8 1
+pinseq=3
+T 350 2200 5 8 0 1 0 2 1
+pintype=pwr
+T 350 2200 9 8 1 1 0 0 1
+pinlabel=GND
+}
+P 300 1800 0 1800 1 0 1
+{
+T 200 1850 5 8 1 1 0 6 1
+pinnumber=4
+T 200 1750 5 8 0 1 0 8 1
+pinseq=4
+T 350 1800 5 8 0 1 0 2 1
+pintype=pwr
+T 350 1800 9 8 1 1 0 0 1
+pinlabel=GND
+}
+P 200 1400 0 1400 1 0 1
+{
+T 200 1450 5 8 1 1 0 6 1
+pinnumber=5
+T 200 1350 5 8 0 1 0 8 1
+pinseq=5
+T 350 1400 5 8 0 1 0 2 1
+pintype=in
+T 350 1400 9 8 1 1 0 0 1
+pinlabel=\_f_IN\_
+}
+P 300 1000 0 1000 1 0 1
+{
+T 200 1050 5 8 1 1 0 6 1
+pinnumber=6
+T 200 950 5 8 0 1 0 8 1
+pinseq=6
+T 350 1000 5 8 0 1 0 2 1
+pintype=in
+T 350 1000 9 8 1 1 0 0 1
+pinlabel=f_IN
+}
+P 300 600 0 600 1 0 1
+{
+T 200 650 5 8 1 1 0 6 1
+pinnumber=7
+T 200 550 5 8 0 1 0 8 1
+pinseq=7
+T 350 600 5 8 0 1 0 2 1
+pintype=pwr
+T 350 600 9 8 1 1 0 0 1
+pinlabel=VCC_1
+}
+P 300 200 0 200 1 0 1
+{
+T 200 250 5 8 1 1 0 6 1
+pinnumber=8
+T 200 150 5 8 0 1 0 8 1
+pinseq=8
+T 350 200 5 8 0 1 0 2 1
+pintype=in
+T 350 200 9 8 1 1 0 0 1
+pinlabel=OSC_IN
+}
+P 2900 200 2600 200 1 0 0
+{
+T 2700 250 5 8 1 1 0 0 1
+pinnumber=9
+T 2700 150 5 8 0 1 0 2 1
+pinseq=9
+T 2550 200 5 8 0 1 0 8 1
+pintype=pwr
+T 2550 200 9 8 1 1 0 6 1
+pinlabel=GND
+}
+P 2900 600 2600 600 1 0 0
+{
+T 2700 650 5 8 1 1 0 0 1
+pinnumber=10
+T 2700 550 5 8 0 1 0 2 1
+pinseq=10
+T 2550 600 5 8 0 1 0 8 1
+pintype=in
+T 2550 600 9 8 1 1 0 6 1
+pinlabel=CE
+}
+P 2900 1000 2600 1000 1 0 0
+{
+T 2700 1050 5 8 1 1 0 0 1
+pinnumber=11
+T 2700 950 5 8 0 1 0 2 1
+pinseq=11
+T 2550 1000 5 8 0 1 0 8 1
+pintype=clk
+T 2500 1000 9 8 1 1 0 6 1
+pinlabel=Clock
+}
+P 2900 1400 2600 1400 1 0 0
+{
+T 2700 1450 5 8 1 1 0 0 1
+pinnumber=12
+T 2700 1350 5 8 0 1 0 2 1
+pinseq=12
+T 2550 1400 5 8 0 1 0 8 1
+pintype=in
+T 2550 1400 9 8 1 1 0 6 1
+pinlabel=Data
+}
+P 2900 1800 2600 1800 1 0 0
+{
+T 2700 1850 5 8 1 1 0 0 1
+pinnumber=13
+T 2700 1750 5 8 0 1 0 2 1
+pinseq=13
+T 2550 1800 5 8 0 1 0 8 1
+pintype=in
+T 2550 1800 9 8 1 1 0 6 1
+pinlabel=LE
+}
+P 2900 2200 2600 2200 1 0 0
+{
+T 2700 2250 5 8 1 1 0 0 1
+pinnumber=14
+T 2700 2150 5 8 0 1 0 2 1
+pinseq=14
+T 2550 2200 5 8 0 1 0 8 1
+pintype=out
+T 2550 2200 9 8 1 1 0 6 1
+pinlabel=Fo/LD
+}
+P 2900 2600 2600 2600 1 0 0
+{
+T 2700 2650 5 8 1 1 0 0 1
+pinnumber=15
+T 2700 2550 5 8 0 1 0 2 1
+pinseq=15
+T 2550 2600 5 8 0 1 0 8 1
+pintype=pwr
+T 2550 2600 9 8 1 1 0 6 1
+pinlabel=VCC_2
+}
+P 2600 3000 2900 3000 1 0 1
+{
+T 2700 3050 5 8 1 1 0 0 1
+pinnumber=16
+T 2700 2950 5 8 0 1 0 2 1
+pinseq=16
+T 2550 3000 5 8 0 1 0 8 1
+pintype=pwr
+T 2550 3000 9 8 1 1 0 6 1
+pinlabel=Vp
+}
+V 250 1400 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2600 3300 8 10 1 1 0 6 1
+refdes=U?
+T 300 3850 5 10 0 0 0 0 1
+footprint=TSSOP16
+T 300 3650 5 10 0 0 0 0 1
+numslots=0
+T 300 4050 5 10 0 0 0 0 1
+description=PLLatinum Low Power Frequency Synthesizer for RF (National Semiconductor)
+T 300 3300 9 8 1 0 0 0 1
+LMX2326TMD
+T 300 4650 5 10 0 0 0 0 1
+L 2600 1050 2525 1000 3 0 1 0 -1 -1
+L 2525 1000 2600 950 3 0 1 0 -1 -1
+T -8 0 8 10 0 1 0 0 1
+author=Newell Jensen newell.jensen@gmail.com
