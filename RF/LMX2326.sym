@@ -187,10 +187,11 @@ T 300 3650 5 10 0 0 0 0 1
 numslots=0
 T 300 4050 5 10 0 0 0 0 1
 description=PLLatinum Low Power Frequency Synthesizer for RF (National Semiconductor)
-T 300 3300 9 8 1 0 0 0 1
+T 1200 2000 9 8 1 0 0 0 1
 LMX2326
 T 300 4650 5 10 0 0 0 0 1
 L 2600 1050 2525 1000 3 0 1 0 -1 -1
 L 2525 1000 2600 950 3 0 1 0 -1 -1
 T -8 0 8 10 0 1 0 0 1
 author=Newell Jensen newell.jensen@gmail.com
+L 2525 1000 2600 1050 3 0 1 0 -1 -1
