@@ -1,15 +1,15 @@
 v 20060123 1
 B 300 300 3700 6600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 4000 7000 9 10 0 0 0 0 1
-footprint=LFCSP_VQ56.fp
+footprint=LFCSP_VQ56
 T 4000 7200 9 10 0 0 0 0 1
 description=Analog Devices DDS chip
 T 4000 7400 9 10 0 0 0 0 1
 device=AD9958BCPZ
 T 4000 7600 9 10 0 0 0 0 1
-distlicense=GPL
+dist-license=GPL
 T 4000 7800 9 10 0 0 0 0 1
-uselicense=unlimited
+use-license=unlimited
 T 4000 8000 9 10 0 0 0 0 1
 author=Newell Jensen newell.jensen@gmail.com
 T 2200 6300 9 10 1 1 0 3 1

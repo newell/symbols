@@ -7,9 +7,9 @@ description=Micrel 10/100 Base-TX/FX PHY Transceiver
 T 2900 9400 9 10 0 0 0 0 1
 device=KS8721CL
 T 2900 9600 9 10 0 0 0 0 1
-distlicense=GPL
+dist-license=GPL
 T 2900 9800 9 10 0 0 0 0 1
-uselicense=unlimited
+use-license=unlimited
 T 2900 10000 9 10 0 0 0 0 1
 author=Newell Jensen newell.jensen@gmail.com
 T 1600 8300 9 10 1 1 0 3 1

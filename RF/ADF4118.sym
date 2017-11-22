@@ -1,7 +1,5 @@
 v 20150930 2
 B 300 0 2300 3200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
-T 300 3450 5 10 0 0 0 0 1
-device=FREQUENCY_SYNTHESIZER
 P 300 3000 0 3000 1 0 1
 {
 T 200 3050 5 8 1 1 0 6 1
@@ -181,19 +179,27 @@ pinlabel=Vp
 V 250 1400 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 2600 3300 8 10 1 1 0 6 1
 refdes=U?
-T 300 3850 5 10 0 0 0 0 1
-footprint=TSSOP16
-T 300 3650 5 10 0 0 0 0 1
-numslots=0
-T 300 4050 5 10 0 0 0 0 1
-description=Analog Devices RF PLL Frequency Synthesizers (ADF4116/ADF4117/ADF4118)
 T 1100 2500 9 8 1 0 0 0 3
 ADF4116/
 ADF4117/
 ADF4118
-T 300 4650 5 10 0 0 0 0 1
-L 2600 1050 2525 1000 3 0 1 0 -1 -1
 L 2525 1000 2600 950 3 0 1 0 -1 -1
-T -8 0 8 10 0 1 0 0 1
-author=Newell Jensen newell.jensen@gmail.com
 L 2525 1000 2600 1050 3 0 1 0 -1 -1
+T 3000 5400 5 8 0 0 0 0 1
+device=FREQUENCY_SYNTHESIZER
+T 3000 4800 5 8 0 0 0 0 1
+footprint=TSSOP16
+T 2992 4192 5 8 0 0 0 0 1
+author=Newell Jensen, newell.jensen@gmail.com
+T 3000 5200 5 8 0 0 0 0 1
+description=Analog Devices RF PLL Frequency Synthesizers (ADF4116/ADF4117/ADF4118)
+T 3000 5000 5 8 0 0 0 0 1
+documentation=http://www.analog.com/media/en/technical-documentation/data-sheets/ADF4116_4117_4118.pdf
+T 3000 4000 5 8 0 0 0 0 1
+dist-license=GPL
+T 3000 3800 5 8 0 0 0 0 1
+use-license=unlimited
+T 3000 4600 5 8 0 0 0 0 1
+values=ADF4116, ADF4117, ADF4118
+T 3000 4400 5 8 0 0 0 0 1
+symversion=1.0

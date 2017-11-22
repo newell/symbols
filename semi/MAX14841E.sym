@@ -1,15 +1,15 @@
 v 20060123 1
 B 300 300 2100 2000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 2400 2400 9 10 0 0 0 0 1
-footprint=S08.fp
+footprint=S08
 T 2400 2600 9 10 0 0 0 0 1
 description=IC TXRX RS485 40MBPS 8SOIC
 T 2400 2800 9 10 0 0 0 0 1
 device=MAX14841EASA+
 T 2400 3000 9 10 0 0 0 0 1
-distlicense=GPL
+dist-license=GPL
 T 2400 3200 9 10 0 0 0 0 1
-uselicense=unlimited
+use-license=unlimited
 T 2400 3400 9 10 0 0 0 0 1
 author=Newell Jensen newell.jensen@gmail.com
 T 1400 1700 9 10 1 1 0 3 1

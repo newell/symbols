@@ -1,7 +1,5 @@
 v 20150930 2
 B 300 0 2300 4000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
-T 300 3450 5 10 0 0 0 0 1
-device=FREQUENCY_SYNTHESIZER
 P 300 3800 0 3800 1 0 1
 {
 T 200 3850 5 8 1 1 0 6 1
@@ -225,17 +223,25 @@ pinlabel=DATA
 V 250 1400 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 2600 4100 8 10 1 1 0 6 1
 refdes=U?
-T 300 3850 5 10 0 0 0 0 1
-footprint=TSSOP20
-T 300 3650 5 10 0 0 0 0 1
-numslots=0
-T 300 4050 5 10 0 0 0 0 1
-description=Dual High-Frequency Synthesizer for RF Personal Communications
 T 300 4100 9 8 1 0 0 0 1
 LMX2434
-T 300 4650 5 10 0 0 0 0 1
-L 2600 1050 2525 1000 3 0 1 0 -1 -1
 L 2525 3400 2600 3350 3 0 1 0 -1 -1
-T -8 0 8 10 0 1 0 0 1
-author=Newell Jensen newell.jensen@gmail.com
 L 2525 3400 2600 3450 3 0 1 0 -1 -1
+T 2600 6600 5 8 0 0 0 0 1
+device=FREQUENCY_SYNTHESIZER
+T 2600 6000 5 8 0 0 0 0 1
+footprint=TSSOP20
+T 2592 5392 5 8 0 0 0 0 1
+author=Newell Jensen, newell.jensen@gmail.com
+T 2600 6400 5 8 0 0 0 0 1
+description=Dual High-Frequency Synthesizer for RF Personal Communications
+T 2600 6200 5 8 0 0 0 0 1
+documentation=http://www.ti.com/lit/ds/symlink/lmx2434.pdf
+T 2600 5200 5 8 0 0 0 0 1
+dist-license=GPL
+T 2600 5000 5 8 0 0 0 0 1
+use-license=unlimited
+T 2600 5800 5 8 0 0 0 0 1
+value=LMX2434
+T 2600 5600 5 8 0 0 0 0 1
+symversion=1.0

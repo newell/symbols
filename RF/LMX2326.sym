@@ -1,7 +1,5 @@
 v 20150930 2
 B 300 0 2300 3200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
-T 300 3450 5 10 0 0 0 0 1
-device=FREQUENCY_SYNTHESIZER
 P 300 3000 0 3000 1 0 1
 {
 T 200 3050 5 8 1 1 0 6 1
@@ -181,17 +179,25 @@ pinlabel=Vp
 V 250 1400 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 2600 3300 8 10 1 1 0 6 1
 refdes=U?
-T 300 3850 5 10 0 0 0 0 1
-footprint=TSSOP16
-T 300 3650 5 10 0 0 0 0 1
-numslots=0
-T 300 4050 5 10 0 0 0 0 1
-description=PLLatinum Low Power Frequency Synthesizer for RF (National Semiconductor)
 T 1200 2000 9 8 1 0 0 0 1
 LMX2326
-T 300 4650 5 10 0 0 0 0 1
-L 2600 1050 2525 1000 3 0 1 0 -1 -1
 L 2525 1000 2600 950 3 0 1 0 -1 -1
-T -8 0 8 10 0 1 0 0 1
-author=Newell Jensen newell.jensen@gmail.com
 L 2525 1000 2600 1050 3 0 1 0 -1 -1
+T 3000 5700 5 8 0 0 0 0 1
+device=FREQUENCY_SYNTHESIZER
+T 3000 5100 5 8 0 0 0 0 1
+footprint=TSSOP16
+T 2992 4492 5 8 0 0 0 0 1
+author=Newell Jensen, newell.jensen@gmail.com
+T 3000 5500 5 8 0 0 0 0 1
+description=PLLatinum Low Power Frequency Synthesizer for RF (National Semiconductor)
+T 3000 5300 5 8 0 0 0 0 1
+documentation=http://pdf.datasheet.live/58f08075/national.com/LMX2326.pdf
+T 3000 4300 5 8 0 0 0 0 1
+dist-license=GPL
+T 3000 4100 5 8 0 0 0 0 1
+use-license=unlimited
+T 3000 4900 5 8 0 0 0 0 1
+value=LMX2326
+T 3000 4700 5 8 0 0 0 0 1
+symversion=1.0

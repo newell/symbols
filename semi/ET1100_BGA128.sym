@@ -7,9 +7,9 @@ description=EtherCAT Slave Controller
 T 6900 15200 9 10 0 0 0 0 1
 device=Beckhoff ET1100 ASIC
 T 6900 15400 9 10 0 0 0 0 1
-distlicense=GPL
+dist-license=GPL
 T 6900 15600 9 10 0 0 0 0 1
-uselicense=unlimited
+use-license=unlimited
 T 6900 15800 9 10 0 0 0 0 1
 author=Newell Jensen newell.jensen@gmail.com
 T 3600 14100 9 10 1 1 0 3 1
