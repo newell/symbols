@@ -94,21 +94,21 @@ pinseq=8
 T 200 1950 5 10 0 1 0 6 1
 pintype=pas
 }
-T 2200 4600 5 8 0 0 0 0 1
+T 2200 4300 5 8 0 0 0 0 1
 device=WIDEBAND_AMPLIFIER
-T 2200 4000 5 8 0 0 0 0 1
+T 2200 3700 5 8 0 0 0 0 1
 footprint=TSSOP8
-T 2192 3392 5 8 0 0 0 0 1
+T 2192 3092 5 8 0 0 0 0 1
 author=Newell Jensen, newell.jensen@gmail.com
-T 2200 4400 5 8 0 0 0 0 1
+T 2200 4100 5 8 0 0 0 0 1
 description=Microchip 16K I2C Serial EEPROM
-T 2200 4200 5 8 0 0 0 0 1
+T 2200 3900 5 8 0 0 0 0 1
 documentation=http://ww1.microchip.com/downloads/en/DeviceDoc/20002213B.pdf
-T 2200 3200 5 8 0 0 0 0 1
+T 2200 2900 5 8 0 0 0 0 1
 dist-license=GPL
-T 2200 3000 5 8 0 0 0 0 1
+T 2200 2700 5 8 0 0 0 0 1
 use-license=unlimited
-T 2200 3800 5 8 0 0 0 0 1
+T 2200 3500 5 8 0 0 0 0 1
 value=24LC16B
-T 2200 3600 5 8 0 0 0 0 1
+T 2200 3300 5 8 0 0 0 0 1
 symversion=1.0
