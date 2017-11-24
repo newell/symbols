@@ -95,7 +95,7 @@ pintype=in
 T 2400 4200 5 8 0 0 0 0 1
 device=WIDEBAND_AMPLIFIER
 T 2400 3600 5 8 0 0 0 0 1
-footprint=S08
+footprint=SO8
 T 2392 2992 5 8 0 0 0 0 1
 author=Newell Jensen, newell.jensen@gmail.com
 T 2400 4000 5 8 0 0 0 0 1
