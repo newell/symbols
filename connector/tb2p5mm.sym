@@ -37,7 +37,7 @@ pintype=pas
 T 800 2600 5 8 0 0 0 0 1
 device=TERMINAL_BLOCK
 T 800 2000 5 8 0 0 0 0 1
-footprint=tb2p200
+footprint=TB2P5MM
 T 792 1392 5 8 0 0 0 0 1
 author=Newell Jensen, newell.jensen@gmail.com
 T 800 2400 5 8 0 0 0 0 1
