@@ -1,0 +1,146 @@
+v 20150930 2
+L 3500 4000 3500 -500 3 10 1 0 -1 -1
+L 5500 4000 5500 -500 3 10 1 0 -1 -1
+A 4500 4000 1000 0 180 3 10 1 0 -1 -1
+A 4500 -500 1000 180 180 3 10 1 0 -1 -1
+P 3100 4000 3500 4000 1 0 0
+{
+T 3200 4050 5 10 0 0 0 0 1
+pintype=pas
+T 3558 3992 9 10 1 1 0 0 1
+pinlabel=1
+T 3408 4042 5 10 1 1 0 6 1
+pinnumber=11
+T 3200 4050 5 10 0 0 0 0 1
+pinseq=11
+}
+P 3100 3500 3500 3500 1 0 0
+{
+T 3200 3550 5 10 0 0 0 0 1
+pintype=pas
+T 3558 3492 9 10 1 1 0 0 1
+pinlabel=2
+T 3408 3542 5 10 1 1 0 6 1
+pinnumber=10
+T 3200 3550 5 10 0 0 0 0 1
+pinseq=10
+}
+P 3100 3000 3500 3000 1 0 0
+{
+T 3200 3050 5 10 0 0 0 0 1
+pintype=pas
+T 3558 2992 9 10 1 1 0 0 1
+pinlabel=3
+T 3408 3042 5 10 1 1 0 6 1
+pinnumber=9
+T 3200 3050 5 10 0 0 0 0 1
+pinseq=9
+}
+P 3100 2500 3500 2500 1 0 0
+{
+T 3200 2550 5 10 0 0 0 0 1
+pintype=pas
+T 3558 2492 9 10 1 1 0 0 1
+pinlabel=4
+T 3408 2542 5 10 1 1 0 6 1
+pinnumber=8
+T 3200 2550 5 10 0 0 0 0 1
+pinseq=8
+}
+P 3100 2000 3500 2000 1 0 0
+{
+T 3200 2050 5 10 0 0 0 0 1
+pintype=pas
+T 3558 1992 9 10 1 1 0 0 1
+pinlabel=5
+T 3408 2042 5 10 1 1 0 6 1
+pinnumber=7
+T 3200 2050 5 10 0 0 0 0 1
+pinseq=7
+}
+P 3100 1500 3500 1500 1 0 0
+{
+T 3200 1550 5 10 0 0 0 0 1
+pintype=pas
+T 3558 1492 9 10 1 1 0 0 1
+pinlabel=6
+T 3408 1542 5 10 1 1 0 6 1
+pinnumber=6
+T 3200 1550 5 10 0 0 0 0 1
+pinseq=6
+}
+P 3100 1000 3500 1000 1 0 0
+{
+T 3200 1050 5 10 0 0 0 0 1
+pintype=pas
+T 3558 992 9 10 1 1 0 0 1
+pinlabel=7
+T 3408 1042 5 10 1 1 0 6 1
+pinnumber=5
+T 3200 1050 5 10 0 0 0 0 1
+pinseq=5
+}
+P 3100 500 3500 500 1 0 0
+{
+T 3200 550 5 10 0 0 0 0 1
+pintype=pas
+T 3558 492 9 10 1 1 0 0 1
+pinlabel=8
+T 3408 542 5 10 1 1 0 6 1
+pinnumber=4
+T 3200 550 5 10 0 0 0 0 1
+pinseq=4
+}
+P 3100 0 3500 0 1 0 0
+{
+T 3200 50 5 10 0 0 0 0 1
+pintype=pas
+T 3558 -8 9 10 1 1 0 0 1
+pinlabel=9
+T 3408 42 5 10 1 1 0 6 1
+pinnumber=3
+T 3200 50 5 10 0 0 0 0 1
+pinseq=3
+}
+P 3100 -500 3500 -500 1 0 0
+{
+T 3200 -450 5 10 0 0 0 0 1
+pintype=pas
+T 3558 -508 9 10 1 1 0 0 1
+pinlabel=0
+T 3408 -458 5 10 1 1 0 6 1
+pinnumber=2
+T 3200 -450 5 10 0 0 0 0 1
+pinseq=2
+}
+T 4392 1995 8 10 1 1 0 0 1
+refdes=N?
+P 5900 2000 5500 2000 1 0 0
+{
+T 5800 2050 5 10 0 0 0 6 1
+pintype=pas
+T 5442 1992 9 10 1 1 0 6 1
+pinlabel=A
+T 5592 2042 5 10 1 1 0 0 1
+pinnumber=1
+T 5800 2050 5 10 0 0 0 6 1
+pinseq=1
+}
+T 5300 6900 5 8 0 0 0 0 1
+device=NIXIE_TUBE
+T 5300 6300 5 8 0 0 0 0 1
+footprint=russian-nixies-IN-12
+T 5292 5692 5 8 0 0 0 0 1
+author=Newell Jensen, newell.jensen@gmail.com
+T 5300 6700 5 8 0 0 0 0 1
+description=Russian Nixie Tube IN-12A
+T 5300 6500 5 8 0 0 0 0 1
+documentation=http://www.tube-tester.com/sites/nixie/dat_arch/IN-12A_IN-12B_03.pdf
+T 5300 5500 5 8 0 0 0 0 1
+dist-license=GPL
+T 5300 5300 5 8 0 0 0 0 1
+use-license=unlimited
+T 5300 6100 5 8 0 0 0 0 1
+value=IN-12A
+T 5300 5900 5 8 0 0 0 0 1
+symversion=1.0
