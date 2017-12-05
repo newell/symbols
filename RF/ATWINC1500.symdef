@@ -1,0 +1,49 @@
+[labels]
+
+refdes=U?
+
+ATWINC1500
+
+
+[left]
+
+10 SPI_CFG
+13 \_IRQ\_
+
+16 \_CS\_
+18 SCK
+15 MOSI
+17 MISO
+
+14 TXD
+19 RXD
+
+3 SDA
+2 SCL
+
+21 IO1
+26 IO15
+27 IO16
+1 IO18
+24 1P3V_TP
+
+
+[right]
+
+22 EN
+
+11 WAKE
+
+4 \_RESET\_
+
+
+
+
+20 VBAT
+
+
+23 VCCIO
+
+
+3 GND
+9 GND
