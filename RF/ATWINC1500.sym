@@ -238,7 +238,7 @@ pintype=io
 T 300 10200 5 8 0 0 0 0 1
 device=WIRELESS_IOT
 T 300 9600 5 8 0 0 0 0 1
-footprint=?
+footprint=ATWINC1500-MR210
 T 292 8992 5 8 0 0 0 0 1
 author=Newell Jensen, newell.jensen@gmail.com
 T 300 10000 5 8 0 0 0 0 1
